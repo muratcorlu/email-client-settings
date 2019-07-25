@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Home
+nav_order: 1
+description: Find how to setup your email client for your email address
+permalink: /
 ---
+
+E-mail settings for {{ site.company_name }}
