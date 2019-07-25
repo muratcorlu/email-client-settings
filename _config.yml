@@ -1,19 +1,18 @@
 search_enabled: true
 remote_theme: pmarsceill/just-the-docs
 
-collections:
-  company_name: Company Name
-  settings:
-    name: Your Name
-    username: yourusername
-    email: ypuremail@example.com
-    password: YourPassword
-    pop:
-      server: mail.example.com
-      port: 110
-    imap:
-      server: mail.example.com
-      port: 587
-    smtp:
-      server: mail.example.com
-      port: 587
+company_name: Company Name
+settings:
+  name: Your Name
+  username: yourusername
+  email: ypuremail@example.com
+  password: YourPassword
+  pop:
+    server: mail.example.com
+    port: 110
+  imap:
+    server: mail.example.com
+    port: 587
+  smtp:
+    server: mail.example.com
+    port: 587
