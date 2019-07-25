@@ -1,4 +1,4 @@
-# Documentation Generator E-mail Client Settings
+# Documentation Generator for E-mail Client Settings
 
 This is Jekyll based documentation generator for Email Client Settings with given SMTP/POP/IMAP settings. You can generate a custom documentation for your Email Server to share with your customers.
 
