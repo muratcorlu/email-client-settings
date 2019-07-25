@@ -1,0 +1,54 @@
+---
+layout: default
+title: Outlook
+parent: Desktop Clients
+nav_order: 4
+---
+
+<h1>Outlook Desktop</h1>
+
+<h2>Outlook 2010</h2>
+<ol>
+    <li>Launch the program and click **Next** in the welcome screen.</li>
+    <li>In the **Account Setup** window, leave Yes as the default value and click Next. If you already have an Outlook account and want to add another, choose File  → Details and click Add a new account.</li>
+    <li>Select **Manual setup or additional server types** and click **Next**.</li>
+    <li>Leave the default value for Internet email and click Next.</li>
+    <li>Set the following account settings:
+        <ul>
+            <li>Name — {{ site.settings.name }}</li>
+            <li>Email address — {{ site.settings.email }}</li>
+            <li>Type of account — IMAP</li>
+            <li>Incoming mail server — {{ site.settings.imap.server }}</li>    
+            <li>Outgoing mail server (SMTP) — {{ site.settings.smtp.server }}</li>    
+            <li>User — {{ site.settings.username }}</li>    
+            <li>Password – {{ site.settings.password }}</li>    
+        </ul>
+    </li>
+    <li>Leave default values for all other parameters and click Other settings.</li>
+    <li>Go to the Outgoing mail server tab, enable the SMTP server requires authentication checkbox, and select the Same as incoming mail server value.</li>
+    <li>Go to the Advanced tab. For the Use the following type of encrypted connection option, select SSL for the IMAP and SMTP servers. Set the following parameters:
+        <ul>
+            <li>IMAP server — {{ site.settings.imap.server }}</li>
+            <li>SMTP server — {{ site.settings.smtp.server }}</li>
+        </ul>
+        Click OK.
+    </li>
+    <li>To finish account configuration, click Next in the Add a new account window to test the account settings. If all the settings are correct and confirmed, click Finish. If not, make sure that all the details are entered properly.</li>
+    <li>Synchronize the newly created account with the server to obtain a list of folders.</li>
+    <li>Open the File → Account settings menu, choose the account in the Email tab, and click Change.</li>
+    <li>Click Other settings and go to the Sent tab.</li>
+    <li>Set the field Save the sent items in the following folder on the server and choose the Sent folder.</li>
+</ul>
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+
